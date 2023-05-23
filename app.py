@@ -43,4 +43,4 @@ def contact():
 
 
 if __name__ == "__main__":
-    app.run(debug=DEVELOPMENT_ENV)
+    app.run(host=0.0.0.0, port=8080, debug=DEVELOPMENT_ENV)
